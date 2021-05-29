@@ -18,7 +18,7 @@ function showRemaining() {
          hours = myDate.getHours(),
          minutoEvento = getMinutoEvento(minuto);
          end = new Date(`05/29/2021 ${hours}:${minutoEvento}`);
-        clearInterval(timer);
+        //clearInterval(timer);
         redNow();
         // document.getElementById('countdown').innerHTML = 'EXPIRED!';
         //
